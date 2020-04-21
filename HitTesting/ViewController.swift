@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var containerView: ContainerView!
+    @IBOutlet weak var redView: UIView!
+    @IBOutlet weak var yellowView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
